@@ -1,16 +1,23 @@
 # XP FARM KATA
 
-## Kata problem
+## Disemvowel Trolls
 
-Return the number (count) of vowels in the given string.
+Trolls are attacking your comment section!
 
-We will consider a, e, i, o, u as vowels for this Kata (but not y).
+A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.
 
-The input string will only consist of lower case letters and/or spaces.
+Your task is to write a function that takes a string and return a new string with all vowels removed.
 
-- Link: https://www.codewars.com/kata/54ff3102c1bad923760001f3
+For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
+
+Note: for this kata y isn't considered a vowel.
+
+- Link: https://www.codewars.com/kata/52fba66badcd10859f00097e
 
 ### Brainstorm
+
+- Iterate over the string to remove vowels
+- Remove non vowels with regex?
 
 ### Pomodoros
 
@@ -18,12 +25,18 @@ The input string will only consist of lower case letters and/or spaces.
 
 **Tasks:**
 
-[]
-[]
+✅ Test empty string
+✅ Test spaces
+✅ Refactoring
+✅ Test a
+✅ Test double a
+✅ Test case insensitive
+✅ Test more vowel
+✅ Refactoring
 
 ### Utility
 
 **Labels**  
-✅ done  
+done  
 🚧 WIP  
 ❌ ERROR
