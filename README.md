@@ -30,7 +30,9 @@ Link: https://www.codewars.com/kata/51e0007c1f9378fa810002a9/train/typescript
 1. Setup ✅
 2. Domain definition ✅
 3. Create test for empty command ✅
-4. Create test for increment comand
+4. Create test for increment command ✅
+5. Create test for decrement command ✅
+6. Create test for two increments and decrements command
 
 **Tasks:**
 
