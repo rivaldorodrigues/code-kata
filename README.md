@@ -37,8 +37,9 @@ Link: https://www.codewars.com/kata/51e0007c1f9378fa810002a9/train/typescript
 ### Pomodoro #2
 
 6. Create test for two increments and decrements command ✅
-7. REFACTOR
-8.
+7. REFACTOR ✅
+8. Create test for square command ✅
+9. Create test for output value
 
 ## Utility
 
