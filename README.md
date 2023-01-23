@@ -32,14 +32,15 @@ Link: https://www.codewars.com/kata/51e0007c1f9378fa810002a9/train/typescript
 3. Create test for empty command ✅
 4. Create test for increment command ✅
 5. Create test for decrement command ✅
-6. Create test for two increments and decrements command
+6. Create test for two increments and decrements command 🚧
 
-**Tasks:**
+### Pomodoro #2
 
-[]
-[]
+6. Create test for two increments and decrements command ✅
+7. REFACTOR
+8.
 
-### Utility
+## Utility
 
 **Labels**  
 ✅ done  
