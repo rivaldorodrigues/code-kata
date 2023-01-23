@@ -1,20 +1,36 @@
-# XP FARM KATA
+# Make the Deadfish Swim
 
 ## Kata problem
 
-Return the number (count) of vowels in the given string.
+Write a simple parser that will parse and run Deadfish.
 
-We will consider a, e, i, o, u as vowels for this Kata (but not y).
+Deadfish has 4 commands, each 1 character long:
 
-The input string will only consist of lower case letters and/or spaces.
+i increments the value (initially 0)
+d decrements the value
+s squares the value
+o outputs the value into the return array
+Invalid characters should be ignored.
 
-- Link: https://www.codewars.com/kata/54ff3102c1bad923760001f3
+parse("iiisdoso") => [8, 64]
 
-### Brainstorm
+Link: https://www.codewars.com/kata/51e0007c1f9378fa810002a9/train/typescript
 
-### Pomodoros
+## Brainstorm
 
-#### Pomodoro #1 (Driver: - Navigator: )
+### Domain
+
+- Parser
+- Commands
+
+## Pomodoros
+
+### Pomodoro #1
+
+1. Setup ✅
+2. Domain definition ✅
+3. Create test for empty command ✅
+4. Create test for increment comand
 
 **Tasks:**
 

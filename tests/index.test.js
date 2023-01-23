@@ -1,7 +1,10 @@
-const { solver } = require("../src");
+const { solver } = require('../src');
 
-describe("Kata test set", () => {
-  test("Should return 0", () => {
-    expect(solver()).toBe(0);
+describe('Make the Deadfish Swim', () => {
+  test('No command should return empty', () => {
+    expect(solver()).toStrictEqual([]);
+  });
+  test('Only increment command should return [1]', () => {
+    expect(solver('i')).toStrictEqual([1]);
   });
 });
