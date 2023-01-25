@@ -40,9 +40,10 @@ Note: keep the original order of the names in the output.
 ### Pomodoro #2
 
 8. Test with one friend and one foe name list ✅
-9. REFACTOR
-10. Test mixing friend and foe name
-11. REFACTOR
+9. REFACTOR ✅
+10. Test mixing friend and foe name ✅
+11. REFACTOR ✅
+12. COMMIT ✅
 
 ## Utility
 
