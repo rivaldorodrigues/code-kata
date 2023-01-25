@@ -1,5 +1,5 @@
-const solver = function () {
-  return 0;
+const solver = function (nameList) {
+  return [];
 };
 
 module.exports = {

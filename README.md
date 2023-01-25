@@ -1,27 +1,36 @@
-# XP FARM KATA
+# Friend or foe
 
 ## Kata problem
 
-Return the number (count) of vowels in the given string.
+Make a program that filters a list of strings and returns a list with only your friends name in it.
 
-We will consider a, e, i, o, u as vowels for this Kata (but not y).
+If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours! Otherwise, you can be sure he's not...
 
-The input string will only consist of lower case letters and/or spaces.
+Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]
 
-- Link: https://www.codewars.com/kata/54ff3102c1bad923760001f3
+i.e.
 
-### Brainstorm
+friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
+Note: keep the original order of the names in the output.
 
-### Pomodoros
+- Link: https://www.codewars.com/kata/55b42574ff091733d900002f
 
-#### Pomodoro #1 (Driver: - Navigator: )
+## Brainstorm
 
-**Tasks:**
+### Domain
 
-[]
-[]
+- Friends
+- Name
 
-### Utility
+## Pomodoros
+
+### Pomodoro #1
+
+1. Setup
+2. Domain definition
+3. Create test for empty name list
+
+## Utility
 
 **Labels**  
 ✅ done  
