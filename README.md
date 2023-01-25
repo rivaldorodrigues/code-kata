@@ -21,6 +21,7 @@ Note: keep the original order of the names in the output.
 
 - Friends
 - Name
+- Letters
 
 ## Pomodoros
 
@@ -29,6 +30,10 @@ Note: keep the original order of the names in the output.
 1. Setup
 2. Domain definition
 3. Create test for empty name list
+4. COMMIT
+5. Test with just one friend
+6. Test name list with one non friend name
+7. COMMIT
 
 ## Utility
 
