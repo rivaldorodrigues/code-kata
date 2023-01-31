@@ -10,4 +10,13 @@ describe('Split Strings', () => {
   test('When two character string then return a list with one string', () => {
     expect(solver('ab')).toEqual(['ab']);
   });
+  test('When thress character string then return a list with two strings', () => {
+    expect(solver('abc')).toEqual(['ab', 'c_']);
+  });
+  test('Kata test case 1', () => {
+    expect(solver('abcdef')).toEqual(['ab', 'cd', 'ef']);
+  });
+  test('Kata test case 2', () => {
+    expect(solver('abcdefg')).toEqual(['ab', 'cd', 'ef', 'g_']);
+  });
 });

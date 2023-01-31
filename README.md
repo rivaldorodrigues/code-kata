@@ -29,7 +29,9 @@ Examples:
 2. Domain definition ✅
 3. Test empry string ✅
 4. Test for single character string ✅
-5. Test for two character string
+5. Test for two character string ✅
+6. Test for three character ✅
+7. Refactoring
 
 ## Utility
 
