@@ -27,7 +27,9 @@ Examples:
 
 1. Setup ✅
 2. Domain definition ✅
-3. Test empry string
+3. Test empry string ✅
+4. Test for single character string ✅
+5. Test for two character string
 
 ## Utility
 
