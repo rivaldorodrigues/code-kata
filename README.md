@@ -1,27 +1,35 @@
-# XP FARM KATA
+# Split Strings
 
 ## Kata problem
 
-Return the number (count) of vowels in the given string.
+Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('\_').
 
-We will consider a, e, i, o, u as vowels for this Kata (but not y).
+Examples:
 
-The input string will only consist of lower case letters and/or spaces.
+- 'abc' => ['ab', 'c_']
+- 'abcdef' => ['ab', 'cd', 'ef']
 
-- Link: https://www.codewars.com/kata/54ff3102c1bad923760001f3
+* Link: https://www.codewars.com/kata/515de9ae9dcfc28eb6000001
 
-### Brainstorm
+## Brainstorm
 
-### Pomodoros
+### Domain
 
-#### Pomodoro #1 (Driver: - Navigator: )
+- String
+- Split
+- Characters
+- Pair
+- Underscore
 
-**Tasks:**
+## Pomodoros
 
-[]
-[]
+### Pomodoro #1
 
-### Utility
+1. Setup ✅
+2. Domain definition ✅
+3. Test empry string
+
+## Utility
 
 **Labels**  
 ✅ done  

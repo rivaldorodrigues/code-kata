@@ -1,7 +1,7 @@
-const { solver } = require("../src");
+const { solver } = require('../src');
 
-describe("Kata test set", () => {
-  test("Should return 0", () => {
-    expect(solver()).toBe(0);
+describe('Split Strings', () => {
+  test('When empty string then return an empty list', () => {
+    expect(solver()).toEqual([]);
   });
 });
