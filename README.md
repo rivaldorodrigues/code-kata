@@ -1,22 +1,35 @@
-# XP FARM KATA
+# Exes and 0hs
 
 ## Kata problem
 
-Return the number (count) of vowels in the given string.
+Check to see if a string has the same amount of 'x's and 'o's. The method must return a boolean and be case insensitive. The string can contain any char.
 
-We will consider a, e, i, o, u as vowels for this Kata (but not y).
+Examples input/output:
 
-The input string will only consist of lower case letters and/or spaces.
+XO("ooxx") => true
+XO("xooxx") => false
+XO("ooxXm") => true
+XO("zpzpzpp") => true // when no 'x' and 'o' is present should return true
+XO("zzoo") => false
 
-- Link: https://www.codewars.com/kata/54ff3102c1bad923760001f3
+- Link: https://www.codewars.com/kata/55908aad6620c066bc00002a
 
 ## Brainstorm
 
 ### Domain
 
+- x
+- o
+- Case insensitive
+- String
+
 ## Pomodoros
 
 ### Pomodoro #1 (Driver: - Navigator: )
+
+1. Setup ✅
+2. Domain definition ✅
+3. First case with empty string
 
 ### Utility
 
