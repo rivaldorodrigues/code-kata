@@ -29,7 +29,9 @@ XO("zzoo") => false
 
 1. Setup ✅
 2. Domain definition ✅
-3. First case with empty string
+3. First case with empty string ✅
+4. Test single lowcase X ✅
+5. Test lowcase x and o
 
 ### Utility
 
