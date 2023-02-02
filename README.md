@@ -32,7 +32,8 @@ XO("zzoo") => false
 3. First case with empty string ✅
 4. Test single lowcase X ✅
 5. Test lowcase x and o ✅
-6. Test mixing uppercase X and lowcase o
+6. Test mixing uppercase X and lowcase o ✅
+7. Test tow Xs and two 0s
 
 ### Utility
 

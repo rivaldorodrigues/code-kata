@@ -1,9 +1,18 @@
 const solver = function (input) {
   if (input) {
-    const first = input[0]?.toLowerCase() || '';
-    const second = input[1]?.toLowerCase() || '';
-    console.log(`${first}${second}`);
-    return `${first}${second}` == 'xo';
+    let xQuantity = 0;
+    let oQuantity = 0;
+
+    for (let index = 0; index < input.length; index++) {
+      const currentCharacter = input[index]?.toLowerCase();
+      if (currentCharacter === 'x') {
+        xQuantity++;
+      } else if (currentCharacter === 'o') {
+        oQuantity++;
+      }
+    }
+
+    return xQuantity === oQuantity;
   }
   return true;
 };

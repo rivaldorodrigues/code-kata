@@ -13,4 +13,7 @@ describe('Exes and Ohs', () => {
   test('When input is Xo then return true', () => {
     expect(solver('Xo')).toBe(true);
   });
+  test('When input is xXoO then return false', () => {
+    expect(solver('xXoO')).toBe(true);
+  });
 });
