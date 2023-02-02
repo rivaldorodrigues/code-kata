@@ -31,7 +31,8 @@ XO("zzoo") => false
 2. Domain definition ✅
 3. First case with empty string ✅
 4. Test single lowcase X ✅
-5. Test lowcase x and o
+5. Test lowcase x and o ✅
+6. Test mixing uppercase X and lowcase o
 
 ### Utility
 

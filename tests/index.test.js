@@ -8,6 +8,9 @@ describe('Exes and Ohs', () => {
     expect(solver('x')).toBe(false);
   });
   test('When input is xo then return true', () => {
-    expect(solver('x')).toBe(true);
+    expect(solver('xo')).toBe(true);
+  });
+  test('When input is Xo then return true', () => {
+    expect(solver('Xo')).toBe(true);
   });
 });
