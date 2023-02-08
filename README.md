@@ -1,22 +1,38 @@
-# XP FARM KATA
+# Take a ten minutes walk
 
 ## Kata problem
 
-Return the number (count) of vowels in the given string.
+You live in the city of Cartesia where all roads are laid out in a perfect grid. You arrived ten minutes too early to an appointment, so you decided to take the opportunity to go for a short walk. The city provides its citizens with a Walk Generating App on their phones -- everytime you press the button it sends you an array of one-letter strings representing directions to walk (eg. ['n', 's', 'w', 'e']). You always walk only a single block for each letter (direction) and you know it takes you one minute to traverse one city block, so create a function that will return true if the walk the app gives you will take you exactly ten minutes (you don't want to be early or late!) and will, of course, return you to your starting point. Return false otherwise.
 
-We will consider a, e, i, o, u as vowels for this Kata (but not y).
+Note: you will always receive a valid array containing a random assortment of direction letters ('n', 's', 'e', or 'w' only). It will never give you an empty array (that's not a walk, that's standing still!).
 
-The input string will only consist of lower case letters and/or spaces.
-
-- Link: https://www.codewars.com/kata/54ff3102c1bad923760001f3
+- Link: https://www.codewars.com/kata/54da539698b8a2ad76000228
 
 ## Brainstorm
 
 ### Domain
 
+- City
+- Roads
+- Appointment
+- Walk
+- Array of directions
+- Directions letter
+- Block
+
+### Rules
+
+- 1 minute per block
+- The walk should have 10 minutes
+- The walk should leave to the starting point
+
 ## Pomodoros
 
-### Pomodoro #1 (Driver: - Navigator: )
+### Pomodoro #1
+
+1. Setup ✅
+2. Domain definition ✅
+3. Testing empty directions array ✅
 
 ### Utility
 

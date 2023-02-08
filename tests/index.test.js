@@ -1,7 +1,7 @@
-const { solver } = require("../src");
+const { solver } = require('../src');
 
-describe("Kata test set", () => {
-  test("Should return 0", () => {
-    expect(solver()).toBe(0);
+describe('Take a ten minute walk', () => {
+  test('When direction array is empty then return false', () => {
+    expect(solver([])).toBe(false);
   });
 });
