@@ -36,6 +36,10 @@ Note: you will always receive a valid array containing a random assortment of di
 4. Create a function to check if the direction return to the starting point ✅
 5. Testing `returnToStart` with just one direction ✅
 
+### Pomodoro #2
+
+6. Testing `returnToStart` with tow opposite directions8
+
 ### Utility
 
 **Labels**  

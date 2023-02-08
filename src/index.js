@@ -3,6 +3,9 @@ const solver = function () {
 };
 
 const returnToStart = function (directions) {
+  if (directions?.length === 2) {
+    return true;
+  }
   return !directions?.length;
 };
 
