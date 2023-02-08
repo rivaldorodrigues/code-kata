@@ -33,7 +33,8 @@ Note: you will always receive a valid array containing a random assortment of di
 1. Setup ✅
 2. Domain definition ✅
 3. Testing empty directions array ✅
-4. Create a function to check if the direction return to the starting point
+4. Create a function to check if the direction return to the starting point ✅
+5. Testing `returnToStart` with just one direction ✅
 
 ### Utility
 
