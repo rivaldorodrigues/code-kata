@@ -38,8 +38,10 @@ Note: you will always receive a valid array containing a random assortment of di
 
 ### Pomodoro #2
 
-6. Testing `returnToStart` with two opposite directions
-7.
+6. Testing `returnToStart` with two opposite vertical directions ✅
+7. Testing `returnToStart` with one vertical and one horizontal direction ✅
+8. Testing `returnToStart` with two opposite horizontal directions ✅
+9. Refactoring: Creating `getOppositeDirection` function
 
 ### Utility
 

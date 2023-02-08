@@ -4,14 +4,25 @@ const solver = function () {
 
 const returnToStart = function (directions) {
   if (directions?.length === 2) {
-    if (directions[0] === 'n' && directions[1] === 's') {
-      return true;
-    } else if (directions[0] === 'e' && directions[1] === 'w') {
+    if (getOppositeDirection(directions[0]) === directions[1]) {
       return true;
     }
     return false;
   }
   return !directions?.length;
+};
+
+const getOppositeDirection = function (direction) {
+  switch (direction) {
+    case 'n':
+      return 's';
+    case 's':
+      return 'n';
+    case 'e':
+      return 'w';
+    case 'w':
+      return 'e';
+  }
 };
 
 module.exports = {
