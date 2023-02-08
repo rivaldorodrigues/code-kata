@@ -38,7 +38,8 @@ Note: you will always receive a valid array containing a random assortment of di
 
 ### Pomodoro #2
 
-6. Testing `returnToStart` with tow opposite directions8
+6. Testing `returnToStart` with two opposite directions
+7.
 
 ### Utility
 
