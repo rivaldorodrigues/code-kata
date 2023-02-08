@@ -19,4 +19,7 @@ describe('Return to the starting point', () => {
   test('When directions has only `n` and `w` then return false', () => {
     expect(returnToStart(['n', 'w'])).toBe(false);
   });
+  test('When directions has only `e` and `w` then return true', () => {
+    expect(returnToStart(['e', 'w'])).toBe(true);
+  });
 });
