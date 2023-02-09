@@ -3,13 +3,14 @@ const solver = function () {
 };
 
 const returnToStart = function (directions) {
-  if (directions?.length === 2) {
-    if (getOppositeDirection(directions[0]) === directions[1]) {
-      return true;
-    }
-    return false;
+  if (directions?.length % 2 === 0) {
+    for (let index = 0; index < directions.length; index += 2)
+      if (getOppositeDirection(directions[index]) != directions[index + 1]) {
+        return false;
+      }
+    return true;
   }
-  return !directions?.length;
+  return false;
 };
 
 const getOppositeDirection = function (direction) {

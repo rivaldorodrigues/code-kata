@@ -22,4 +22,7 @@ describe('Return to the starting point', () => {
   test('When directions has only `e` and `w` then return true', () => {
     expect(returnToStart(['e', 'w'])).toBe(true);
   });
+  test('When directions has `n`, `s`, `e`, `w` then return true', () => {
+    expect(returnToStart(['n', 's', 'e', 'w'])).toBe(true);
+  });
 });
