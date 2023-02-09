@@ -3,33 +3,25 @@ const solver = function () {
 };
 
 const returnToStart = function (directions) {
-  const blocksByDirection = new Map();
+  const blocksByDirection = countBlocksPerDirection(directions);
 
-  if (directions?.length % 2 === 0) {
-    for (let index = 0; index < directions.length; index++) {
-      const blocks = blocksByDirection.get(directions[index]) || 0;
-      blocksByDirection.set(directions[index], blocks + 1);
-    }
-
-    return (
-      blocksByDirection.get('n') === blocksByDirection.get('s') &&
-      blocksByDirection.get('e') === blocksByDirection.get('w')
-    );
-  }
-  return false;
+  return (
+    blocksByDirection.get('n') === blocksByDirection.get('s') &&
+    blocksByDirection.get('e') === blocksByDirection.get('w')
+  );
 };
 
-const getOppositeDirection = function (direction) {
-  switch (direction) {
-    case 'n':
-      return 's';
-    case 's':
-      return 'n';
-    case 'e':
-      return 'w';
-    case 'w':
-      return 'e';
+const countBlocksPerDirection = function (directions) {
+  const blocksByDirection = new Map();
+
+  if (directions?.length) {
+    for (let direction of directions) {
+      const blocks = blocksByDirection.get(direction) || 0;
+      blocksByDirection.set(direction, blocks + 1);
+    }
   }
+
+  return blocksByDirection;
 };
 
 module.exports = {

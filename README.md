@@ -46,7 +46,8 @@ Note: you will always receive a valid array containing a random assortment of di
 ### Pomodoro #3
 
 10. Testing `returnToStart` with two pair of opposite direction ✅
-11. Testing `returnToStart` with tow same directions and tow oppossite direction
+11. Testing `returnToStart` with tow same directions and tow oppossite direction ✅
+12. Refactoring: Create `countBlockPerDirection` function
 
 ### Utility
 
