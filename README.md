@@ -47,7 +47,13 @@ Note: you will always receive a valid array containing a random assortment of di
 
 10. Testing `returnToStart` with two pair of opposite direction ✅
 11. Testing `returnToStart` with tow same directions and tow oppossite direction ✅
-12. Refactoring: Create `countBlockPerDirection` function
+12. Refactoring: Create `countBlockPerDirection` function ✅
+13. Testing a valid walk with 5 `n` blocks and 5 `s` blocks 🚧
+
+### Pomodoro #4
+
+13. Testing a valid walk with 5 `w` blocks and 5 `e` blocks 🚧
+14. Testing walk longer than 10 minutes
 
 ### Utility
 
