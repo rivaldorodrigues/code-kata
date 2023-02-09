@@ -4,10 +4,13 @@ describe('Take a ten minute walk', () => {
   test('When direction array is empty then return false', () => {
     expect(solver([])).toBe(false);
   });
-  test('When directions has same amount of opposite directions then return true', () => {
+  test('When directions have same amount of opposite directions then return true', () => {
     expect(solver(['w', 'w', 'w', 'w', 'w', 'e', 'e', 'e', 'e', 'e'])).toBe(
       true
     );
+  });
+  test('When directions have less than 10 blocks then return false', () => {
+    expect(solver(['w', 'w', 'e', 'e'])).toBe(false);
   });
 });
 

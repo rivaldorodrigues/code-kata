@@ -52,8 +52,8 @@ Note: you will always receive a valid array containing a random assortment of di
 
 ### Pomodoro #4
 
-13. Testing a valid walk with 5 `w` blocks and 5 `e` blocks 🚧
-14. Testing walk longer than 10 minutes
+13. Testing a valid walk with 5 `w` blocks and 5 `e` blocks ✅
+14. Testing walk shorter than 10 minutes ✅
 
 ### Utility
 

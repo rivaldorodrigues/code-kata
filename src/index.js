@@ -1,5 +1,5 @@
 const solver = function (directions) {
-  return !!directions?.length && returnToStart(directions);
+  return directions?.length === 10 && returnToStart(directions);
 };
 
 const returnToStart = function (directions) {
