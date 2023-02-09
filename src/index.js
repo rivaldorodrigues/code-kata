@@ -3,12 +3,18 @@ const solver = function () {
 };
 
 const returnToStart = function (directions) {
+  const blocksByDirection = new Map();
+
   if (directions?.length % 2 === 0) {
-    for (let index = 0; index < directions.length; index += 2)
-      if (getOppositeDirection(directions[index]) != directions[index + 1]) {
-        return false;
-      }
-    return true;
+    for (let index = 0; index < directions.length; index++) {
+      const blocks = blocksByDirection.get(directions[index]) || 0;
+      blocksByDirection.set(directions[index], blocks + 1);
+    }
+
+    return (
+      blocksByDirection.get('n') === blocksByDirection.get('s') &&
+      blocksByDirection.get('e') === blocksByDirection.get('w')
+    );
   }
   return false;
 };

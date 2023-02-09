@@ -25,4 +25,7 @@ describe('Return to the starting point', () => {
   test('When directions has `n`, `s`, `e`, `w` then return true', () => {
     expect(returnToStart(['n', 's', 'e', 'w'])).toBe(true);
   });
+  test('When directions has `n`, `n`, `s`, `s` then return true', () => {
+    expect(returnToStart(['n', 'n', 's', 's'])).toBe(true);
+  });
 });
