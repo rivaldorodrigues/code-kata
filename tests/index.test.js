@@ -10,4 +10,7 @@ describe('Grasshopper - Summation test set', () => {
   test('Should return 3 when input is two', () => {
     expect(solver(2)).toBe(3);
   });
+  test('Should return 6 when input is three', () => {
+    expect(solver(3)).toBe(6);
+  });
 });

@@ -30,7 +30,10 @@ For example (Input -> Output):
 3. Test empty input ✅
 4. COMMIT ✅
 5. Test when input num is one ✅
-6. Test when input num is two
+6. Test when input num is two ✅
+7. COMMIT ✅
+8. Test when input num is three ✅
+9. Refactoring
 
 ### Utility
 

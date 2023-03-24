@@ -1,10 +1,12 @@
 const solver = function (num) {
-  if (num == 1) {
-    return num;
-  } else if (num == 2) {
-    return num + 1;
+  let summation = 0;
+
+  while (num > 0) {
+    summation += num;
+    num--;
   }
-  return 0;
+
+  return summation;
 };
 
 module.exports = {
