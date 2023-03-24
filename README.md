@@ -27,7 +27,9 @@ For example (Input -> Output):
 
 1. Setup ✅
 2. Domain definition ✅
-3. Test empty input
+3. Test empty input ✅
+4. COMMIT ✅
+5. Test when num is one
 
 ### Utility
 
