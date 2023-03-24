@@ -1,22 +1,33 @@
 # XP FARM KATA
 
-## Kata problem
+## Grasshopper - Summation
 
-Return the number (count) of vowels in the given string.
+Summation
+Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
 
-We will consider a, e, i, o, u as vowels for this Kata (but not y).
+For example (Input -> Output):
 
-The input string will only consist of lower case letters and/or spaces.
+2 -> 3 (1 + 2)
+8 -> 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)
 
-- Link: https://www.codewars.com/kata/54ff3102c1bad923760001f3
+- Link: https://www.codewars.com/kata/55d24f55d7dd296eb9000030
 
 ## Brainstorm
 
 ### Domain
 
+- Summation
+- Number
+- Num
+- Input
+
 ## Pomodoros
 
-### Pomodoro #1 (Driver: - Navigator: )
+### Pomodoro #1
+
+1. Setup ✅
+2. Domain definition ✅
+3. Test empty input
 
 ### Utility
 
