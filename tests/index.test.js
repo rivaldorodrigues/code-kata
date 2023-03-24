@@ -7,4 +7,7 @@ describe('Grasshopper - Summation test set', () => {
   test('Should return 1 when input is one', () => {
     expect(solver(1)).toBe(1);
   });
+  test('Should return 3 when input is two', () => {
+    expect(solver(2)).toBe(3);
+  });
 });

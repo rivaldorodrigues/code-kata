@@ -29,7 +29,8 @@ For example (Input -> Output):
 2. Domain definition ✅
 3. Test empty input ✅
 4. COMMIT ✅
-5. Test when num is one
+5. Test when input num is one ✅
+6. Test when input num is two
 
 ### Utility
 
