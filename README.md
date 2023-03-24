@@ -33,7 +33,7 @@ For example (Input -> Output):
 6. Test when input num is two ✅
 7. COMMIT ✅
 8. Test when input num is three ✅
-9. Refactoring
+9. Refactoring ✅
 
 ### Utility
 
