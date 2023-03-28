@@ -1,5 +1,5 @@
-const solver = function () {
-  return 0;
+const solver = function (input) {
+  return translate(input);
 };
 
 const translate = function (input) {

@@ -41,7 +41,9 @@ There should be no trailing whitespace
 1. Kata setup ✅
 2. Domain definition ✅
 3. Load NATO dictionary ✅
-4. Check if the punctionatio remains
+4. Check if the punctionatio remains ✅
+5. Translate an empty string ✅
+6. Test strings with only one letter ✅
 
 ### Utility
 

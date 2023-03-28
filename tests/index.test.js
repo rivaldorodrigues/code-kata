@@ -10,7 +10,10 @@ describe('NATO Dictionary test set', () => {
 });
 
 describe('Kata test set', () => {
-  test('Should return 0', () => {
-    expect(solver()).toBe(0);
+  test('Should empty when translating an empty string', () => {
+    expect(solver('')).toBe('');
+  });
+  test('Should return Bravo when translating letter B', () => {
+    expect(solver('B')).toEqual('Bravo');
   });
 });
