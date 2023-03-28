@@ -16,4 +16,7 @@ describe('Kata test set', () => {
   test('Should return Bravo when translating letter B', () => {
     expect(solver('B')).toEqual('Bravo');
   });
+  test('Should return Charlie when translating letter c', () => {
+    expect(solver('c')).toEqual('Charlie');
+  });
 });
