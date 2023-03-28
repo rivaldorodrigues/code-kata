@@ -1,22 +1,46 @@
 # XP FARM KATA
 
-## Kata problem
+## If you can read this...
 
-Return the number (count) of vowels in the given string.
+Task
+You'll have to translate a string to Pilot's alphabet (NATO phonetic alphabet).
 
-We will consider a, e, i, o, u as vowels for this Kata (but not y).
+Input:
 
-The input string will only consist of lower case letters and/or spaces.
+If, you can read?
 
-- Link: https://www.codewars.com/kata/54ff3102c1bad923760001f3
+Output:
+
+India Foxtrot , Yankee Oscar Uniform Charlie Alfa November Romeo Echo Alfa Delta ?
+
+Note:
+
+There are preloaded dictionary you can use, named NATO
+The set of used punctuation is ,.!?.
+Punctuation should be kept in your return string, but spaces should not.
+Xray should not have a dash within.
+Every word and punctuation mark should be seperated by a space ' '.
+There should be no trailing whitespace
+
+- Link: https://www.codewars.com/kata/586538146b56991861000293
 
 ## Brainstorm
 
 ### Domain
 
+- Translate
+- NATO
+- Dictionary
+- Word
+- Punctuation
+
 ## Pomodoros
 
-### Pomodoro #1 (Driver: - Navigator: )
+### Pomodoro #1
+
+1. Kata setup ✅
+2. Domain definition ✅
+3. Load NATO dictionary
 
 ### Utility
 
