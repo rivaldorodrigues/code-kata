@@ -40,7 +40,8 @@ There should be no trailing whitespace
 
 1. Kata setup ✅
 2. Domain definition ✅
-3. Load NATO dictionary
+3. Load NATO dictionary ✅
+4. Check if the punctionatio remains
 
 ### Utility
 

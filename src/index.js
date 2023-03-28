@@ -32,7 +32,7 @@ const translate = function (input) {
     Z: 'Zulu',
   };
 
-  return dictionary[input];
+  return dictionary[input] || input;
 };
 
 module.exports = {
