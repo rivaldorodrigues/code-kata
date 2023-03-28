@@ -47,6 +47,10 @@ There should be no trailing whitespace
 7. Make the solver function to be case insensitive ✅
 8. Test string with two letters ✅
 
+### Pomodoro #2
+
+9. Test string with two words
+
 ### Utility
 
 **Labels**  

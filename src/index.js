@@ -1,8 +1,15 @@
 const solver = function (input) {
-  return [...input].map((letter) => translate(letter.toUpperCase())).join(' ');
+  return [...input]
+    .filter((letter) => letter !== ' ')
+    .map((letter) => translate(letter.toUpperCase()))
+    .join(' ');
 };
 
 const translate = function (input) {
+  if (!input || !input.trim()) {
+    return '';
+  }
+
   const dictionary = {
     A: 'Alpha',
     B: 'Bravo',

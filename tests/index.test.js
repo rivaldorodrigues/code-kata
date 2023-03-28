@@ -22,4 +22,7 @@ describe('Kata test set', () => {
   test('Should return Delta Hotel when input string is DH', () => {
     expect(solver('DH')).toEqual('Delta Hotel');
   });
+  test('Should return Echo Foxtrot Golf India when input string is EF GI', () => {
+    expect(solver('EF GI')).toEqual('Echo Foxtrot Golf India');
+  });
 });
