@@ -1,8 +1,8 @@
 const { solver, translate } = require('../src');
 
 describe('NATO Dictionary test set', () => {
-  test('Should return Alpha when input is A', () => {
-    expect(translate('A')).toEqual('Alpha');
+  test('Should return Alfa when input is A', () => {
+    expect(translate('A')).toEqual('Alfa');
   });
   test('Should return the same input symbol when input is not a letter', () => {
     expect(translate('!')).toEqual('!');
@@ -24,5 +24,10 @@ describe('Kata test set', () => {
   });
   test('Should return Echo Foxtrot Golf India when input string is EF GI', () => {
     expect(solver('EF GI')).toEqual('Echo Foxtrot Golf India');
+  });
+  test('Should return India Foxtrot , Yankee Oscar Uniform Charlie Alfa November Romeo Echo Alfa Delta ? when input is If, you can read?', () => {
+    expect(solver('If, you can read?')).toEqual(
+      'India Foxtrot , Yankee Oscar Uniform Charlie Alfa November Romeo Echo Alfa Delta ?'
+    );
   });
 });
