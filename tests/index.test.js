@@ -19,4 +19,7 @@ describe('Kata test set', () => {
   test('Should return Charlie when translating letter c', () => {
     expect(solver('c')).toEqual('Charlie');
   });
+  test('Should return Delta Hotel when input string is DH', () => {
+    expect(solver('DH')).toEqual('Delta Hotel');
+  });
 });

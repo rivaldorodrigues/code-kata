@@ -44,7 +44,8 @@ There should be no trailing whitespace
 4. Check if the punctionatio remains ✅
 5. Translate an empty string ✅
 6. Test strings with only one letter ✅
-7. Make the solver function to be case insensitive
+7. Make the solver function to be case insensitive ✅
+8. Test string with two letters ✅
 
 ### Utility
 

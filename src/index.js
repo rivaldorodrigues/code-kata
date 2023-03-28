@@ -1,5 +1,5 @@
 const solver = function (input) {
-  return translate(input.toUpperCase());
+  return [...input].map((letter) => translate(letter.toUpperCase())).join(' ');
 };
 
 const translate = function (input) {
