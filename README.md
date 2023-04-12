@@ -38,7 +38,8 @@ isIsogram "aba" = false
 
 ### Pomodoro #2
 
-7. Validating words with four letters
+7. Validating words with four letters ✅
+8. Refactoring ✅
 
 ### Utility
 
