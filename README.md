@@ -30,9 +30,11 @@ isIsogram "aba" = false
 ### Pomodoro #1
 
 1. Create the `isIsogram` function ✅
-2. Validating words with tow repeating letters ✅
+2. Validating words with two repeating letters ✅
 3. Validating words with only one letter ✅
-4. Validating words with two non-repeating letters
+4. Validating words with two non-repeating letters ✅
+5. Validating words with two repeating letters with diffent case
+6.
 
 ### Utility
 
