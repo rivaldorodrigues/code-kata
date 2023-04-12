@@ -12,4 +12,8 @@ describe('Isogram kata test set', () => {
   it('should return true when the word is a', () => {
     expect(isIsogram('a')).toEqual(true);
   });
+
+  it('should return true when the word is ab', () => {
+    expect(isIsogram('ab')).toEqual(true);
+  });
 });

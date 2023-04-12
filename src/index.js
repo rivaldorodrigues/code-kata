@@ -2,7 +2,7 @@ const isIsogram = function (word) {
   if (!word || word.length === 1) {
     return true;
   } else {
-    return false;
+    return word[0] != word[1];
   }
 };
 
