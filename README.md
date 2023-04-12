@@ -50,7 +50,7 @@ There should be no trailing whitespace
 ### Pomodoro #2
 
 9. Test string with two words ✅
-10. Test string with punctuation
+10. Test string with punctuation ✅
 
 ### Utility
 
