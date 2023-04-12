@@ -1,7 +1,7 @@
-const { solver } = require("../src");
+const { isIsogram } = require('../src');
 
-describe("Kata test set", () => {
-  test("Should return 0", () => {
-    expect(solver()).toBe(0);
+describe('Isogram kata test set', () => {
+  test('should return true when the word is empty', () => {
+    expect(isIsogram()).toBe(true);
   });
 });

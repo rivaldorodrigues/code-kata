@@ -1,7 +1,7 @@
-const solver = function () {
-  return 0;
+const isIsogram = function () {
+  return true;
 };
 
 module.exports = {
-  solver,
+  isIsogram,
 };

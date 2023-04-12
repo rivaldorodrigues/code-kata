@@ -1,22 +1,35 @@
 # XP FARM KATA
 
-## Kata problem
+## Isograms
 
-Return the number (count) of vowels in the given string.
+An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
 
-We will consider a, e, i, o, u as vowels for this Kata (but not y).
+Example: (Input --> Output)
 
-The input string will only consist of lower case letters and/or spaces.
+"Dermatoglyphics" --> true "aba" --> false "moOse" --> false (ignore letter case)
 
-- Link: https://www.codewars.com/kata/54ff3102c1bad923760001f3
+isIsogram "Dermatoglyphics" = true
+isIsogram "moose" = false
+isIsogram "aba" = false
+
+- Link: https://www.codewars.com/kata/54ba84be607a92aa900000f1
 
 ## Brainstorm
 
+- No repeating letters
+- Empty string is a isogram
+
 ### Domain
+
+- Isogram
+- Word
+- Letter
 
 ## Pomodoros
 
-### Pomodoro #1 (Driver: - Navigator: )
+### Pomodoro #1
+
+1. Create the `isIsogram` function
 
 ### Utility
 
