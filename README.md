@@ -34,7 +34,7 @@ isIsogram "aba" = false
 3. Validating words with only one letter ✅
 4. Validating words with two non-repeating letters ✅
 5. Validating words with two repeating letters with diffent case
-6.
+6. Testing words with three letter
 
 ### Utility
 

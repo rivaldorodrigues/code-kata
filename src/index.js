@@ -3,7 +3,11 @@ const isIsogram = function (word) {
     return true;
   } else {
     word = word.toLowerCase();
-    return word[0] != word[1];
+    if (word.length === 2) {
+      return word[0] != word[1];
+    } else {
+      return word[0] != word[1] && word[0] != word[2] && word[1] != word[2];
+    }
   }
 };
 
