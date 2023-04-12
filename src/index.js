@@ -1,5 +1,9 @@
 const isIsogram = function (word) {
-  return !word;
+  if (!word || word.length === 1) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 module.exports = {

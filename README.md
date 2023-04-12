@@ -29,9 +29,9 @@ isIsogram "aba" = false
 
 ### Pomodoro #1
 
-1. Create the `isIsogram` function
-2. Validating words with tow reepting letters
-3. Validating words with only one letter
+1. Create the `isIsogram` function ✅
+2. Validating words with tow reepting letters ✅
+3. Validating words with only one letter ✅
 
 ### Utility
 
