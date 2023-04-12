@@ -28,4 +28,16 @@ describe('Isogram kata test set', () => {
   it('should return false when the word is abb', () => {
     expect(isIsogram('abb')).toEqual(false);
   });
+
+  it('should return false when the word is abca', () => {
+    expect(isIsogram('abca')).toEqual(false);
+  });
+
+  it('should return false when the word is abcb', () => {
+    expect(isIsogram('abcb')).toEqual(false);
+  });
+
+  it('should return false when the word is abcc', () => {
+    expect(isIsogram('abcc')).toEqual(false);
+  });
 });

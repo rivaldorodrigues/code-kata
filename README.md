@@ -33,8 +33,12 @@ isIsogram "aba" = false
 2. Validating words with two repeating letters ✅
 3. Validating words with only one letter ✅
 4. Validating words with two non-repeating letters ✅
-5. Validating words with two repeating letters with diffent case
-6. Testing words with three letter
+5. Validating words with two repeating letters with diffent case ✅
+6. Validating words with three letters ✅
+
+### Pomodoro #2
+
+7. Validating words with four letters
 
 ### Utility
 
