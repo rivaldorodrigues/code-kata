@@ -1,5 +1,5 @@
-const isIsogram = function () {
-  return true;
+const isIsogram = function (word) {
+  return !word;
 };
 
 module.exports = {
