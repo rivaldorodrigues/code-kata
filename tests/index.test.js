@@ -1,16 +1,16 @@
-const { solver, translate } = require('../src');
+const { solver, letterToNato } = require('../src');
 
 describe('NATO Dictionary test set', () => {
   test('Should return Alfa when input is A', () => {
-    expect(translate('A')).toEqual('Alfa');
+    expect(letterToNato('A')).toEqual('Alfa');
   });
-  test('Should return the same input symbol when input is not a letter', () => {
-    expect(translate('!')).toEqual('!');
+  test('Should return the same symbol when input is a punctuation', () => {
+    expect(letterToNato('!')).toEqual('!');
   });
 });
 
-describe('Kata test set', () => {
-  test('Should empty when translating an empty string', () => {
+describe('If you can read this - Kata test set', () => {
+  test('Should return empty when translating an empty string', () => {
     expect(solver('')).toBe('');
   });
   test('Should return Bravo when translating letter B', () => {
@@ -19,13 +19,13 @@ describe('Kata test set', () => {
   test('Should return Charlie when translating letter c', () => {
     expect(solver('c')).toEqual('Charlie');
   });
-  test('Should return Delta Hotel when input string is DH', () => {
+  test('Should return Delta Hotel when translating DH', () => {
     expect(solver('DH')).toEqual('Delta Hotel');
   });
-  test('Should return Echo Foxtrot Golf India when input string is EF GI', () => {
+  test('Should return Echo Foxtrot Golf India when translating EF GI', () => {
     expect(solver('EF GI')).toEqual('Echo Foxtrot Golf India');
   });
-  test('Should return India Foxtrot , Yankee Oscar Uniform Charlie Alfa November Romeo Echo Alfa Delta ? when input is If, you can read?', () => {
+  test('Should return India Foxtrot , Yankee Oscar Uniform Charlie Alfa November Romeo Echo Alfa Delta ? when translating If, you can read?', () => {
     expect(solver('If, you can read?')).toEqual(
       'India Foxtrot , Yankee Oscar Uniform Charlie Alfa November Romeo Echo Alfa Delta ?'
     );

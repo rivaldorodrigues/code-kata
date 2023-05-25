@@ -29,9 +29,11 @@ There should be no trailing whitespace
 ### Domain
 
 - Translate
-- NATO
+- Letter
+- NATO Alphabet
 - Dictionary
 - Word
+- String
 - Punctuation
 
 ## Pomodoros

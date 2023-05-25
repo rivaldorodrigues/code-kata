@@ -1,12 +1,5 @@
-const solver = function (input) {
-  return [...input]
-    .filter((letter) => letter !== ' ')
-    .map((letter) => translate(letter.toUpperCase()))
-    .join(' ');
-};
-
-const translate = function (input) {
-  if (!input || !input.trim()) {
+const letterToNato = function (letter) {
+  if (!letter || !letter.trim()) {
     return '';
   }
 
@@ -39,10 +32,17 @@ const translate = function (input) {
     Z: 'Zulu',
   };
 
-  return dictionary[input] || input;
+  return dictionary[letter] || letter;
+};
+
+const solver = function (input) {
+  return [...input]
+    .filter((letter) => letter !== ' ')
+    .map((letter) => letterToNato(letter.toUpperCase()))
+    .join(' ');
 };
 
 module.exports = {
-  translate,
+  letterToNato,
   solver,
 };
