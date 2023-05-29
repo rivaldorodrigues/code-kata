@@ -1,3 +1,5 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/rivaldorodrigues/code-kata/badge.svg)](https://snyk.io/test/github/rivaldorodrigues/code-kata)
+
 # XP FARM KATA
 
 ## Kata problem
