@@ -1,6 +1,6 @@
-const solver = function () {
+function solver() {
   return 0;
-};
+}
 
 module.exports = {
   solver,
