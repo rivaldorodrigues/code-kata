@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watchAll",
+    "test:watch": "jest --watchAll --coverage --verbose",
     "prepare": "husky install",
     "eslint:fix": "eslint --cache --fix .",
     "eslint:verify": "eslint .",
