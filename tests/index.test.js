@@ -33,7 +33,11 @@ describe('Check Choose - Kata test set', () => {
     expect(checkChoose(0)).toBe(-1);
   });
 
-  it('should return 1 when the number of colors and posters is 1', () => {
+  it('should return 1 when the number of posters and colors is 1', () => {
     expect(checkChoose(1, 1)).toBe(1);
+  });
+
+  it('should return 2 when then number of posters is 2 and the number colors is 4', () => {
+    expect(checkChoose(2, 4)).toBe(2);
   });
 });

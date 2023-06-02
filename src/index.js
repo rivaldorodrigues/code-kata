@@ -18,6 +18,9 @@ function binomialCoefficient(n, x) {
 }
 
 function checkChoose(numberOfPosters, numberOfColors) {
+  if (numberOfColors > numberOfPosters) {
+    return 2;
+  }
   if (numberOfPosters > 0) {
     return 1;
   }
