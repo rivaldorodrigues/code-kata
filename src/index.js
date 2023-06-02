@@ -10,7 +10,10 @@ function factorial(n) {
   return 0;
 }
 
-function binomialCoefficient() {
+function binomialCoefficient(n, x) {
+  if (n > 0 && x > 0) {
+    return factorial(n) / (factorial(x) * factorial(n - x));
+  }
   return 0;
 }
 

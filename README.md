@@ -58,6 +58,7 @@ for a given m and a given n; m >= 0 and n > 0. If many x are solutions give as r
 ### Pomodoro #1 (Driver: - Navigator: )
 
 8. Creating a function to calculate the Binomial coefficient ✅
+9. Calculate the binomial coefficient when 4 chose 2 ✅
 
 ### Utility
 

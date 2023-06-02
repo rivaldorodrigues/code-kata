@@ -19,7 +19,11 @@ describe('Factorial function test set', () => {
 });
 
 describe('Binomial coefficient test set', () => {
-  test('Should return 0 when 0 chose 0', () => {
+  it('Should return 0 when 0 chose 0', () => {
     expect(binomialCoefficient(0, 0)).toBe(0);
+  });
+
+  it('should return 6 when 4 chose 2', () => {
+    expect(binomialCoefficient(4, 2)).toBe(6);
   });
 });
