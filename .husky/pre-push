@@ -2,4 +2,4 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npm run test
-nxp env-cmd sonar-scanner
+npx env-cmd sonar-scanner
