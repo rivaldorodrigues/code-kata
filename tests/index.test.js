@@ -12,6 +12,10 @@ describe('Factorial function test set', () => {
   it('should return 6 when calculating factorial of 3', () => {
     expect(factorial(3)).toBe(6);
   });
+
+  it('should return 24 when calculating factorial of 4', () => {
+    expect(factorial(4)).toBe(24);
+  });
 });
 
 describe('Kata test set', () => {
