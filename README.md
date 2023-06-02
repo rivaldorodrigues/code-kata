@@ -51,7 +51,8 @@ for a given m and a given n; m >= 0 and n > 0. If many x are solutions give as r
 3. Create a function to calculate the factorial ✅
 4. Calculate the factorial of 1 ✅
 5. Calculate the factorial of 3 ✅
-6. Calculate the factorial of 4
+6. Calculate the factorial of 4 ✅
+7. Refactoring the factorial function
 
 ### Utility
 
