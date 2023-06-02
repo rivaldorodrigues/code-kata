@@ -17,12 +17,12 @@ function binomialCoefficient(n, x) {
   return 0;
 }
 
-function solver() {
+function checkChoose() {
   return 0;
 }
 
 module.exports = {
   binomialCoefficient,
   factorial,
-  solver,
+  checkChoose,
 };

@@ -1,4 +1,4 @@
-const { solver, factorial, binomialCoefficient } = require('../src');
+const { checkChoose, factorial, binomialCoefficient } = require('../src');
 
 describe('Factorial function test set', () => {
   it('should return 0 when calculating factorial of 0', () => {
@@ -25,5 +25,11 @@ describe('Binomial coefficient test set', () => {
 
   it('should return 6 when 4 chose 2', () => {
     expect(binomialCoefficient(4, 2)).toBe(6);
+  });
+});
+
+describe('Check Choose - Kata test set', () => {
+  it('should return 0 when number of posters is 0', () => {
+    expect(checkChoose(0)).toBe(0);
   });
 });
