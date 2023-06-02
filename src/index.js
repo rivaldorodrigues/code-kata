@@ -17,7 +17,10 @@ function binomialCoefficient(n, x) {
   return 0;
 }
 
-function checkChoose() {
+function checkChoose(numberOfPosters, numberOfColors) {
+  if (numberOfPosters > 0) {
+    return 1;
+  }
   return -1;
 }
 
