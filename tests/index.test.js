@@ -29,7 +29,7 @@ describe('Binomial coefficient test set', () => {
 });
 
 describe('Check Choose - Kata test set', () => {
-  it('should return 0 when number of posters is 0', () => {
-    expect(checkChoose(0)).toBe(0);
+  it('should return 0 when number of posters is -1', () => {
+    expect(checkChoose(0)).toBe(-1);
   });
 });

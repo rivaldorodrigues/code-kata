@@ -18,7 +18,7 @@ function binomialCoefficient(n, x) {
 }
 
 function checkChoose() {
-  return 0;
+  return -1;
 }
 
 module.exports = {
