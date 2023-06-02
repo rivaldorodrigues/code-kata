@@ -1,4 +1,4 @@
-const { solver, factorial } = require('../src');
+const { solver, factorial, binomialCoefficient } = require('../src');
 
 describe('Factorial function test set', () => {
   it('should return 0 when calculating factorial of 0', () => {
@@ -18,8 +18,8 @@ describe('Factorial function test set', () => {
   });
 });
 
-describe('Kata test set', () => {
-  test('Should return 0', () => {
-    expect(solver()).toBe(0);
+describe('Binomial coefficient test set', () => {
+  test('Should return 0 when 0 chose 0', () => {
+    expect(binomialCoefficient(0, 0)).toBe(0);
   });
 });

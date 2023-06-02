@@ -10,11 +10,16 @@ function factorial(n) {
   return 0;
 }
 
+function binomialCoefficient() {
+  return 0;
+}
+
 function solver() {
   return 0;
 }
 
 module.exports = {
+  binomialCoefficient,
   factorial,
   solver,
 };
