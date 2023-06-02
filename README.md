@@ -61,7 +61,7 @@ for a given m and a given n; m >= 0 and n > 0. If many x are solutions give as r
 9. Calculate the binomial coefficient when 4 chose 2 ✅
 10. Create the `checkChoose` function ✅
 11. Testing the `checkChose` function with one as the number of colors and number os posters ✅
-12. Testing the `checkChose` function for 2 posters and 4 colors
+12. Testing the `checkChose` function for 2 posters and 4 colors ✅
 
 ### Utility
 
