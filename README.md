@@ -1,32 +1,34 @@
+# XP FARM KATA
+
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=rivaldorodrigues-code-kata&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=rivaldorodrigues-code-kata)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=rivaldorodrigues-code-kata&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=rivaldorodrigues-code-kata)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=rivaldorodrigues-code-kata&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=rivaldorodrigues-code-kata)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=rivaldorodrigues-code-kata&metric=coverage)](https://sonarcloud.io/summary/new_code?id=rivaldorodrigues-code-kata)
 [![Known Vulnerabilities](https://snyk.io/test/github/rivaldorodrigues/code-kata/badge.svg)](https://snyk.io/test/github/rivaldorodrigues/code-kata)
 
-# XP FARM KATA
+## 🏷️ About
 
-## Kata problem
+An ATM has banknotes of nominal values 10, 20, 50, 100, 200 and 500 dollars. You can consider that there is a large enough supply of each of these banknotes.
 
-Return the number (count) of vowels in the given string.
+You have to write the ATM's function that determines the minimal number of banknotes needed to honor a withdrawal of n dollars, with 1 <= n <= 1500.
 
-We will consider a, e, i, o, u as vowels for this Kata (but not y).
+Return that number, or -1 if it is impossible.
 
-The input string will only consist of lower case letters and/or spaces.
+Link:
 
-- Link: https://www.codewars.com/kata/54ff3102c1bad923760001f3
+## 🚀 Executing the application
 
-## Brainstorm
+### Dependencies installation
 
-### Domain
+Make sure you have [NPM](https://nodejs.org/en/) installed.
+To install the dependencies, simply perform the following command in the project root folder:
 
-## Pomodoros
+```bash
+npm install
+```
 
-### Pomodoro #1 (Driver: - Navigator: )
+### Running
 
-### Utility
-
-**Labels**  
-✅ done  
-🚧 WIP  
-❌ ERROR
+```bash
+npm run test
+```
