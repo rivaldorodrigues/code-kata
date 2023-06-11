@@ -1,18 +1,20 @@
 {
   "name": "code-kata",
   "version": "1.0.0",
-  "description": "Repository for code kata problems ",
+  "description": "Repository for code kata problems",
   "main": "index.js",
-  "license": "MIT",
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watchAll",
+    "test": "jest --coverage",
+    "test:watch": "jest --watchAll --coverage",
     "prepare": "husky install",
     "eslint:fix": "eslint --cache --fix .",
     "eslint:verify": "eslint .",
     "prettier:fix": "prettier --write .",
     "prettier:verify": "prettier --check ."
   },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
   "lint-staged": {
     "*.js": "npm run eslint:fix",
     "*.{js,css,md,yml,json,code-snippets}": "npm run prettier:fix"
