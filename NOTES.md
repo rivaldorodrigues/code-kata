@@ -18,7 +18,8 @@
 
 - Domain definition ✅
 - Backlog description ✅
-- Testing if 2000 is a leap year should return true;
+- Testing if 2000 is a leap year should return true ✅
+- Testing if 1000 is a leap year should return false ✅
 
 ## Utility
 
