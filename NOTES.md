@@ -20,6 +20,7 @@
 - Backlog description ✅
 - Testing if 2000 is a leap year should return true ✅
 - Testing if 1000 is a leap year should return false ✅
+- Testing if 2400 is a leap year should return true ✅
 
 ## Utility
 
