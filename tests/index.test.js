@@ -1,7 +1,7 @@
 const { solver } = require('../src');
 
 describe('Kata test set', () => {
-  test('Should return 0', () => {
-    expect(solver()).toBe(0);
+  it('should return true when the year is 2000', () => {
+    expect(solver(2000)).toBe(true);
   });
 });

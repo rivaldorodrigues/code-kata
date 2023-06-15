@@ -1,5 +1,5 @@
 function solver() {
-  return 0;
+  return true;
 }
 
 module.exports = {
