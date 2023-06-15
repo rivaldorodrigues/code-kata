@@ -1,8 +1,5 @@
 function solver(year) {
-  if (year === 2000) {
-    return true;
-  }
-  if (year === 2400) {
+  if (year % 400 === 0) {
     return true;
   }
   return false;

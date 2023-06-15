@@ -21,6 +21,7 @@
 - Testing if 2000 is a leap year should return true ✅
 - Testing if 1000 is a leap year should return false ✅
 - Testing if 2400 is a leap year should return true ✅
+- Refactor: Changing multiple `if` for mod of 400 ✅
 
 ## Utility
 
