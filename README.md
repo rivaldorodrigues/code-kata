@@ -1,4 +1,4 @@
-# XP FARM KATA
+# Leap Years
 
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=rivaldorodrigues-code-kata&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=rivaldorodrigues-code-kata)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=rivaldorodrigues-code-kata&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=rivaldorodrigues-code-kata)
@@ -8,9 +8,16 @@
 
 ## 🏷️ About
 
-Kata description...
+In this kata you should simply determine, whether a given year is a leap year or not. In case you don't know the rules, here they are:
 
-Link:
+years divisible by 4 are leap years
+but years divisible by 100 are not leap years
+but years divisible by 400 are leap years
+Additional Notes:
+
+Only valid years (positive integers) will be tested, so you don't have to validate them
+
+Link: https://www.codewars.com/kata/526c7363236867513f0005ca
 
 ## 🚀 Executing the application
 
