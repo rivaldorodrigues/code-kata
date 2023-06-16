@@ -26,7 +26,9 @@
 ### 🍅 Pomodoro #2
 
 - Testing if 1820 is a leap year should return true ✅
-- Testing if 1920 is a leap year should return true
+- Testing if 1920 is a leap year should return true ✅
+- Refactor: Changing multiple `if` for mod of 4 ✅
+- Testing if 1100 is a leap year should return false
 
 ## Utility
 
