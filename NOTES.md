@@ -23,6 +23,10 @@
 - Testing if 2400 is a leap year should return true ✅
 - Refactor: Changing multiple `if` for mod of 400 ✅
 
+### 🍅 Pomodoro #2
+
+- Testing if 1820 is a leap year should return true
+
 ## Utility
 
 7
