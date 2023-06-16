@@ -3,7 +3,7 @@ function solver(year) {
     return true;
   }
 
-  if (year === 1000) {
+  if (year % 100 === 0) {
     return false;
   }
 

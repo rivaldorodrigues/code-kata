@@ -20,4 +20,8 @@ describe('Kata test set', () => {
   it('should return true when the year is 1920', () => {
     expect(solver(1920)).toBe(true);
   });
+
+  it('should return false when the year is 1100', () => {
+    expect(solver(1100)).toBe(false);
+  });
 });
