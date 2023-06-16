@@ -25,7 +25,8 @@
 
 ### 🍅 Pomodoro #2
 
-- Testing if 1820 is a leap year should return true
+- Testing if 1820 is a leap year should return true ✅
+- Testing if 1920 is a leap year should return true
 
 ## Utility
 
